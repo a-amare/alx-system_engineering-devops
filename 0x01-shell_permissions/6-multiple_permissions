@@ -1,2 +1,2 @@
 #!/bin/bash
-chmd 554 hello
+chmd -rwxr-xr-- hello 

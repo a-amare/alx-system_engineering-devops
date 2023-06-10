@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1p | awk '{printf "%s%s", (NR>1?",":""),$0} END{print ""}'
+ls -1Ap | grep -v "/\./" | sort -k1.2 -k1 | tr '\n' ',' | sed 's/,$/\n/'

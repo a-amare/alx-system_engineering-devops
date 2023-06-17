@@ -1,5 +1,5 @@
 #!/bin/bash
 chmod u+x *
 git add .
-git commit -m "automated commit! neat innit?"
+git commit -m "$1"
 git push
